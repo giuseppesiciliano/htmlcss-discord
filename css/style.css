@@ -6,6 +6,8 @@
 }
 
 body {
+    width: 70%;
+    margin: auto;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -32,7 +34,9 @@ img {
 
 
 
-/* NAVIGATOR MENU */
+
+
+/* ------------------------HEADER------------------------ */
 header {
     background-color: #3161e0;
 }
@@ -43,8 +47,7 @@ nav {
 
 
 
-
-/*Logo */
+/*--------Logo-------- */
 .col.logo {
     width: 20%;
 }
@@ -56,8 +59,7 @@ nav {
 
 
 
-
-/* Navigator Bar */
+/* --------Navigator Bar-------- */
 .col.menu {
     width: 60%;
     text-align: center;
@@ -76,19 +78,81 @@ nav {
 
 
 
-
-/* Login */
+/* --------Login-------- */
 .col.login {
     width: 20%;
     text-align: right;
 }
+/* ------------------------end HEADER------------------------ */
 
-.col.login a {
-    font-weight: bold;
-    font-size: 15px;
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 40px;
+
+
+
+/* ------------------------MAIN------------------------ */
+/* --------BANNER-------- */
+main {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.banner-content {
+    color: white;
+    padding: 100px 0;
+    width: 45%;
+    margin: auto;
+}
+
+.banner-content h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.banner-content p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* --------end BANNER-------- */
+
+
+
+/* --------BUTTONS-------- */
+.buttons {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    line-height: normal;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.btn-small {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+.btn-large {
+    padding: 16px 32px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.btn-white {
+    color: #23272a;
+    background-color: white;
+}
+
+.btn-black {
+    color: white;
+    background-color: #23272a;
+}
+/* --------end BUTTONS-------- */
