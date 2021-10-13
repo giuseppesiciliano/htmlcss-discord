@@ -25,7 +25,7 @@ body {
 
 .col {
     float: left;
-    height: 80px;
+    /* height: 80px; */
 }
 
 img {
@@ -90,15 +90,16 @@ nav {
 
 /* ------------------------MAIN------------------------ */
 /* --------BANNER-------- */
-main {
+.banner {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0;
 }
 
 .banner-content {
     color: white;
-    padding: 100px 0;
     width: 45%;
     margin: auto;
 }
@@ -156,3 +157,39 @@ main {
     background-color: #23272a;
 }
 /* --------end BUTTONS-------- */
+
+
+
+/* --------SECTION IMG-TEXT-------- */
+section {
+    margin: 150px 0;
+}
+.col.area-img {
+    width: 60%;
+    padding: 0 50px;
+}
+
+.col.area-text {
+    width: 40%;
+    font-size: 30px;
+    padding: 0 50px;
+    margin-top: 26px;
+}
+
+
+
+
+
+
+.col.area-text p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/* --------SECTION TEXT-IMG-------- */
