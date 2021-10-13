@@ -32,6 +32,9 @@ img {
     width: 100%;
 }
 
+.bg-grey {
+    background-color: #f6f6f6;
+}
 
 
 
@@ -162,7 +165,7 @@ nav {
 
 /* --------SECTION IMG-TEXT-------- */
 section {
-    margin: 150px 0;
+    padding: 150px 0;
 }
 .col.area-img {
     width: 60%;
