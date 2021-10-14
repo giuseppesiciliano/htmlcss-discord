@@ -179,12 +179,7 @@ section {
     margin-top: 26px;
 }
 
-
-
-
-
-
-.col.area-text p {
+.area-text p {
     font-size: 20px;
     font-weight: bold;
     padding: 20px 0;
@@ -193,6 +188,8 @@ section {
 
 
 
-
-
-/* --------SECTION TEXT-IMG-------- */
+/* -------- CENTRAL SECTION TEXT-IMG-------- */
+.central.area-text {
+    text-align: center;
+    font-size: 30px;
+}
