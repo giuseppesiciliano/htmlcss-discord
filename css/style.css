@@ -6,10 +6,10 @@
 }
 
 body {
-    width: 70%;
-    margin: auto;
     font-family: 'Open Sans', sans-serif;
 }
+
+
 
 /* COMMON */
 .clearfix::after {
